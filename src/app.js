@@ -6,4 +6,12 @@ export default class App extends LightningElement {
    material = 'Steel';
    price = '$2,700';
    pictureUrl = 'https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/electrax4.jpg';
+   ready = false;
+   
+   //Imposta un timer di 3 secondi. Dopo 3 secondi, il contenuto dovrebbe apparire
+   connectedCallback() {
+       setTimeout(() => {
+           this.ready = true;
+       }, 3000);
+   }
 }
