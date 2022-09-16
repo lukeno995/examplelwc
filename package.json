@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/lukeno995.lwc-l84ixt4u",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve xMvg4Aw50VGfDU3L7ySE --open"
+  }
+}
